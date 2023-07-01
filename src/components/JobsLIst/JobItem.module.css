@@ -1,0 +1,38 @@
+
+.job-item {
+  padding: 1.5rem 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.2rem;
+  background-color: white;
+  box-shadow: 0px 2px 5px 0px var(--dark-grayish-cyan);
+}
+
+.job-description {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* SPECIAL BADGE */
+
+.featured {
+  border-left: 4px solid var(--desatuteated-dark-cyan);
+}
+
+@media screen and (max-width: 375px) {
+  .job-item {
+    position: relative;
+    padding: 0.5rem 1rem;
+    width: 120%;
+    flex-direction: column;
+  }
+  
+  .job-description {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  
+}

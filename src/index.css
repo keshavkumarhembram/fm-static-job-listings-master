@@ -1,13 +1,37 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'League Spartan';
+  src: url(./assets/font/LeagueSpartan-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url(./assets/font/LeagueSpartan-Bold.ttf);
+  font-weight: 700;
+}
+
+:root {
+  /* Primary */
+  --desatuteated-dark-cyan: hsl(180, 29%, 50%);
+
+  /* Neutral */
+  /* Background */
+  --light-grayish-cyan-background: hsl(180, 52%, 96%);
+  /* Filter Tablets */
+  --light-grayish-cyan-filter-tablets: hsl(180, 31%, 95%);
+  --dark-grayish-cyan: hsl(180, 8%, 52%);
+  --very-dark-grayish-cyan: hsl(180, 14%, 20%);
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--very-dark-grayish-cyan);
+  background-color: var(--light-grayish-cyan-background);
 }

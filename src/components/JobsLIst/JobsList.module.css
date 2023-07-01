@@ -1,0 +1,16 @@
+.joblist {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+@media screen and (max-width: 375px) {
+  .joblist {
+    width: 70%;
+    gap: 40px;
+  }
+}

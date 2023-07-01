@@ -1,0 +1,54 @@
+.filter-tab {
+  position: relative;
+  margin: -40px auto 40px;
+  width: 70%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 2px 5px 0px var(--dark-grayish-cyan);
+  border-radius: 0.2rem;
+  z-index: 20;
+}
+
+.added-filter {
+  list-style: none;
+}
+
+.added-filter li {
+  margin: 5px 10px;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 0.3rem;
+  font-weight: 700;
+  color: var(--desatuteated-dark-cyan);
+  background-color: var(--light-grayish-cyan-filter-tablets);
+}
+
+.added-filter li button {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  background-color: var(--desatuteated-dark-cyan);
+}
+
+.added-filter li button:hover {
+  cursor: pointer;
+  background-color: var(--very-dark-grayish-cyan);
+}
+
+.clear-button {
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--desatuteated-dark-cyan);
+  background-color: inherit;
+}
+
+.clear-button:hover {
+  cursor: pointer;
+  text-decoration: underline 2px;
+}

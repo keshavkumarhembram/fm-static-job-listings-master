@@ -1,0 +1,25 @@
+.criteria button {
+  margin: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  padding: 0.3rem;
+  font-weight: 700;
+  color: var(--desatuteated-dark-cyan);
+  background-color: var(--light-grayish-cyan-filter-tablets);
+}
+
+.criteria button:hover {
+  color: white;
+  background-color: var(--desatuteated-dark-cyan);
+}
+
+@media screen and (max-width: 375px) {
+  .criteria {
+    border-top: 2px solid var(--desatuteated-dark-cyan);
+    margin: 20px;
+    padding-top: 20px;
+  }
+  .criteria button {
+    margin: 0px 10px 5px 0px;
+  }
+}

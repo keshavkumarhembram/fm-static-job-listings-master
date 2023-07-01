@@ -1,0 +1,44 @@
+span {
+  margin: 0rem 0.7rem;
+}
+
+.job-details {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.new-badge {
+  padding: 0.3rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: var(--desatuteated-dark-cyan);
+}
+
+.featured-badge {
+  padding: 0.3rem;
+  color: white;
+  border-radius: 0.8rem;
+  background-color: var(--very-dark-grayish-cyan);
+}
+
+.position {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.position:hover {
+  color: var(--desatuteated-dark-cyan);
+  cursor: pointer;
+}
+
+.company {
+  font-size: 1rem;
+  color: var(--desatuteated-dark-cyan);
+  font-weight: 700;
+}
+
+.description {
+  color: var(--dark-grayish-cyan);
+}
