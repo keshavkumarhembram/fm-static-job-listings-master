@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/fm-static-job-listings-master/static/css/main.5b65b699.css",
+    "main.js": "/fm-static-job-listings-master/static/js/main.c359509d.js",
+    "static/js/787.88ac99f0.chunk.js": "/fm-static-job-listings-master/static/js/787.88ac99f0.chunk.js",
+    "static/media/LeagueSpartan-Bold.ttf": "/fm-static-job-listings-master/static/media/LeagueSpartan-Bold.c311dbd01e80ebe50942.ttf",
+    "static/media/LeagueSpartan-Medium.ttf": "/fm-static-job-listings-master/static/media/LeagueSpartan-Medium.a8c3b9360d69edbcf13e.ttf",
+    "static/media/bg-header-desktop.svg": "/fm-static-job-listings-master/static/media/bg-header-desktop.752d0faf14c00c6fb55f968b61e827e0.svg",
+    "index.html": "/fm-static-job-listings-master/index.html",
+    "static/media/bg-header-mobile.svg": "/fm-static-job-listings-master/static/media/bg-header-mobile.b7750a0c3e0c016763b9a1fbcf1c340d.svg",
+    "main.5b65b699.css.map": "/fm-static-job-listings-master/static/css/main.5b65b699.css.map",
+    "main.c359509d.js.map": "/fm-static-job-listings-master/static/js/main.c359509d.js.map",
+    "787.88ac99f0.chunk.js.map": "/fm-static-job-listings-master/static/js/787.88ac99f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b65b699.css",
+    "static/js/main.c359509d.js"
+  ]
+}
