@@ -206,7 +206,7 @@ function App() {
         src={bgHeader}
         alt="header background"
       />
-      {addedFilter.lenght > 0 && <FilterTab
+      {addedFilter.length > 0 && <FilterTab
         onClear={onClearHandler}
         onRemove={onRemoveHandler}
         addedFilter={addedFilter}
