@@ -1,4 +1,4 @@
-import { Fragment, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 import './App.css';
 import JobsList from './components/JobsLIst/JobsList';
@@ -194,7 +194,7 @@ function App() {
   };
 
   return (
-    <Fragment>
+    <main>
       <img
         className="header-background-image-mobile"
         src={bgHeaderMobile}
@@ -211,7 +211,7 @@ function App() {
         addedFilter={addedFilter}
       />
       <JobsList onClick={onClickHandler} joblist={jobList} />
-    </Fragment>
+    </main>
   );
 }
 
