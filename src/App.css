@@ -1,3 +1,8 @@
+h1 {
+  position: absolute;
+  visibility: hidden;
+}
+
 .header-background-image {
   width: 100%;
   background-color: var(--desatuteated-dark-cyan);

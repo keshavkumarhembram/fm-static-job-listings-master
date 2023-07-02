@@ -195,6 +195,7 @@ function App() {
 
   return (
     <main>
+      <h1>Job Listing</h1>
       <img
         className="header-background-image-mobile"
         src={bgHeaderMobile}
@@ -205,11 +206,11 @@ function App() {
         src={bgHeader}
         alt="header background"
       />
-      <FilterTab
+      {addedFilter.lenght > 0 && <FilterTab
         onClear={onClearHandler}
         onRemove={onRemoveHandler}
         addedFilter={addedFilter}
-      />
+      />}
       <JobsList onClick={onClickHandler} joblist={jobList} />
     </main>
   );
