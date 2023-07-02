@@ -3,7 +3,7 @@ const JobLogo = (props) => {
   return (
     <img
       className={classes.logo}
-      src={'./assets/' + props.logo}
+      src={'./assets/' + props.logo.replace('./', '')}
       alt="company logo"
     />
   );

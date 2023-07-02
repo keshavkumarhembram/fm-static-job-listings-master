@@ -44,11 +44,12 @@
   border: none;
   font-size: 1rem;
   font-weight: 700;
-  color: var(--desatuteated-dark-cyan);
+  color: var(--dark-grayish-cyan);
   background-color: inherit;
 }
 
 .clear-button:hover {
   cursor: pointer;
+  color: var(--desatuteated-dark-cyan);
   text-decoration: underline 2px;
 }
